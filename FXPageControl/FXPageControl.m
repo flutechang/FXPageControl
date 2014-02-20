@@ -31,6 +31,7 @@
 //
 
 #import "FXPageControl.h"
+#import "UIImage+ScaleUtil.h"
 
 
 #pragma GCC diagnostic ignored "-Wgnu"
@@ -167,7 +168,9 @@ const CGPathRef FXPageControlDotShapeTriangle = (const CGPathRef)3;
             }
 			if (dotImage)
 			{
-				[dotImage drawInRect:CGRectMake((self.dotSize - dotImage.size.width) / 2, (self.frame.size.height - dotImage.size.height) / 2, dotImage.size.width, dotImage.size.height)];
+                dotImage = [UIImage imageWithImage:dotImage scaleToFit:CGSizeMake(self.dotSize, self.dotSize)];
+                
+				[dotImage drawInRect:CGRectMake(-_dotImage.size.width / 2, -dotImage.size.height / 2, dotImage.size.width, dotImage.size.height)];
 			}
 			else
 			{

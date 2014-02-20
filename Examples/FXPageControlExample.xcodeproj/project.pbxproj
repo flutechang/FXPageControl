@@ -18,6 +18,7 @@
 		01F3F39C166560440049C4DF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 01F3F395166560440049C4DF /* main.m */; };
 		01F3F3A0166560540049C4DF /* FXPageControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 01F3F39F166560540049C4DF /* FXPageControl.m */; };
 		01F3F3A51665614C0049C4DF /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 01F3F3A41665614C0049C4DF /* Default-568h@2x.png */; };
+		F550F4D218B6BC560080DE1D /* UIImage+ScaleUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = F550F4D118B6BC560080DE1D /* UIImage+ScaleUtil.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +39,8 @@
 		01F3F39E166560540049C4DF /* FXPageControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FXPageControl.h; sourceTree = "<group>"; };
 		01F3F39F166560540049C4DF /* FXPageControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FXPageControl.m; sourceTree = "<group>"; };
 		01F3F3A41665614C0049C4DF /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		F550F4D018B6BC560080DE1D /* UIImage+ScaleUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ScaleUtil.h"; sourceTree = "<group>"; };
+		F550F4D118B6BC560080DE1D /* UIImage+ScaleUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ScaleUtil.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +102,8 @@
 			children = (
 				01F3F39E166560540049C4DF /* FXPageControl.h */,
 				01F3F39F166560540049C4DF /* FXPageControl.m */,
+				F550F4D018B6BC560080DE1D /* UIImage+ScaleUtil.h */,
+				F550F4D118B6BC560080DE1D /* UIImage+ScaleUtil.m */,
 			);
 			name = FXPageControl;
 			path = ../FXPageControl;
@@ -182,6 +187,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				01F3F397166560440049C4DF /* AppDelegate.m in Sources */,
+				F550F4D218B6BC560080DE1D /* UIImage+ScaleUtil.m in Sources */,
 				01F3F398166560440049C4DF /* ViewController.m in Sources */,
 				01F3F39C166560440049C4DF /* main.m in Sources */,
 				01F3F3A0166560540049C4DF /* FXPageControl.m in Sources */,
