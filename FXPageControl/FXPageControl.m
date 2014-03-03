@@ -170,7 +170,7 @@ const CGPathRef FXPageControlDotShapeTriangle = (const CGPathRef)3;
 			{
                 dotImage = [UIImage imageWithImage:dotImage scaleToFit:CGSizeMake(self.dotSize, self.dotSize)];
                 
-				[dotImage drawInRect:CGRectMake(-_dotImage.size.width / 2, -dotImage.size.height / 2, dotImage.size.width, dotImage.size.height)];
+				[dotImage drawInRect:CGRectMake(-dotImage.size.width / 2, -dotImage.size.height / 2, dotImage.size.width, dotImage.size.height)];
 			}
 			else
 			{
